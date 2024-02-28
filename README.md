@@ -3,7 +3,7 @@
 # Evaluating Realistic Adversarial Attacks against Machine Learning Models for Windows PE Malware Detection  
 ### Installation  
 As the dataset contains harmful malware binary files, installing a virtual machine to run this code is better. To replicate the experiments, install the following packages.  
-* [Python 3.6.13]
+* Python 3.6.13
  * [Keras 2.7](https://github.com/keras-team/keras)
  * [Tensorflow 2.7](https://www.tensorflow.org/)
  * [Scikit learn](https://scikit-learn.org/stable/)
