@@ -16,7 +16,7 @@ The dataset consists of harmful malware binary files, I suggest installing a vir
 * tqdm 4.64.1
 * jupyter notebook 6.4.3
 * secml_malware 0.2.4.1 (https://github.com/pralab/secml_malware)](https://github.com/pralab/secml_malware))
-* ember 0.1.0 ([https://pypi.org/project/hyperopt](https://github.com/elastic/ember/tree/master)https://github.com/elastic/ember/tree/master/)
+* ember 0.1.0 (https://github.com/elastic/ember/tree/master)https://github.com/elastic/ember/tree/master/)
 * SHAP 0.41.4
 ### Description for this repository
 To replicate the experiments of the referred work, the models and datasets have been saved in (after uploading the dataset link will be here). Parameters are saved in config.ini. Run the notebook in the given order:
@@ -31,7 +31,11 @@ To replicate the experiments of the referred work, the models and datasets have 
 9. Run gamma_subset_euclidean_distance notebook to achieve Figure 3 results in section 5.3.
 10. Run XAI_beeswarm notebook to achieve Figure 4-8 results in section 5.4.
 11. Run Adversarial_training notebook to achieve Table 3 results in section 5.5.
-12. Run XAI_CV_beeswarm notebook to achieve Figure 9 results in section 5.5.    
+12. Run XAI_CV_beeswarm notebook to achieve Figure 9 results in section 5.5.
+## Acknowledgement
+To generate realistic adversarial Windows PE malware by attacking MalConv with the attack methods: FullDOS, Extend_DOS, Content_Shift, FGSM(padding+slack), and GAMMA this work uses code from GitHub repository secml_malware (https://github.com/pralab/secml_malware)](https://github.com/pralab/secml_malware)).
+To extract features from Windows PE malware, this work uses code from GitHub ember (https://github.com/elastic/ember/tree/master)https://github.com/elastic/ember/tree/master/)
+
 
 
 
