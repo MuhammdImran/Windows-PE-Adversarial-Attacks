@@ -15,7 +15,7 @@ The dataset consists of harmful malware binary files, I suggest installing a vir
 * lightgbm 4.1.0
 * tqdm 4.64.1
 * jupyter notebook 6.4.3
-* secml_malware(https://github.com/pralab/secml_malware)](https://github.com/pralab/secml_malware))
+* secml_malware 0.2.4.1 (https://github.com/pralab/secml_malware)](https://github.com/pralab/secml_malware))
 * ember 0.1.0 ([https://pypi.org/project/hyperopt](https://github.com/elastic/ember/tree/master)https://github.com/elastic/ember/tree/master/)
 * SHAP 0.41.4
 ### Description for this repository
