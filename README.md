@@ -24,12 +24,12 @@ To replicate the experiments of the referred work, the models and datasets have 
 2. Run adversarial_samples_generation notebook to generate Windows PE malware by attacking MalConv with the attack method: FullDOS, Extend_dos, Conetnt_shift, FGSM(padding+slack), and GAMMA. This step is optional as Windows PE malware files by each attacking method are included in the dataset. To skip this step, paste these files into the folders by following the configuration in config.ini. 
 3. Run malconv_evasion_performnce notebook to achieve Table 1, Table 2, and Figure 1 results against the MalConv model.
 4. Run lightGBM_eval notebook to achieve Table 1, Table 2, and Figure 1 results against the lightgbm model.
-5. Run corresponding_malware to find the corresponding PE malware of the realistic adversarial PE malware.
-6. Run gamma_subset to find the gamma adversarial PE malware and its corresponding, that achieved transferability against lightgbm.
-7. Run feature_extraction to extract features from all PE adversarial malware and corresponding malware.
-8. Run euclidean_distance to achieve Figure 2 results in section 5.3.
-9. Run gamma_subset_euclidean_distance to achieve Figure 3 results in section 5.3.
-10. Run XAI_beeswarm to achieve Figure 4-8 results in section 5.4.
+5. Run corresponding_malware notebook to find the corresponding PE malware of the realistic adversarial PE malware.
+6. Run gamma_subset notebook to find the gamma adversarial PE malware and its corresponding, that achieved transferability against lightgbm.
+7. Run feature_extraction notebook to extract features from all PE adversarial malware and corresponding malware.
+8. Run euclidean_distance notebook to achieve Figure 2 results in section 5.3.
+9. Run gamma_subset_euclidean_distance notebook to achieve Figure 3 results in section 5.3.
+10. Run XAI_beeswarm notebook to achieve Figure 4-8 results in section 5.4.
 11. Run Adversarial_training notebook to achieve Table 3 results in section 5.5.
 12. Run XAI_CV_beeswarm notebook to achieve Figure 9 results in section 5.5.    
 
