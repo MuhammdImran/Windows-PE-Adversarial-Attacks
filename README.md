@@ -27,11 +27,11 @@ To replicate the experiments of the referred work, the models and datasets have 
 5. Run corresponding_malware notebook to find the corresponding PE malware of the realistic adversarial PE malware.
 6. Run gamma_subset notebook to find the gamma adversarial PE malware and its corresponding, that achieved transferability against lightgbm.
 7. Run feature_extraction notebook to extract features from all PE adversarial malware and corresponding malware.
-8. Run euclidean_distance notebook to achieve Figure 2 results in section 5.3.
-9. Run gamma_subset_euclidean_distance notebook to achieve Figure 3 results in section 5.3.
-10. Run XAI_beeswarm notebook to achieve Figure 4-8 results in section 5.4.
-11. Run Adversarial_training notebook to achieve Table 3 results in section 5.5.
-12. Run XAI_CV_beeswarm notebook to achieve Figure 9 results in section 5.5.
+8. Run euclidean_distance notebook to achieve Figure 2 results in section 5.3
+9. Run gamma_subset_euclidean_distance notebook to achieve Figure 3 results in section 5.3
+10. Run XAI_beeswarm notebook to achieve Figure 4-8 results in section 5.4
+11. Run Adversarial_training notebook to achieve Table 3 results in section 5.5
+12. Run XAI_CV_beeswarm notebook to achieve Figure 9 results in section 5.5
 ## Acknowledgement
 To generate realistic adversarial Windows PE malware by attacking MalConv with the attack methods: FullDOS, Extend_DOS, Content_Shift, FGSM(padding+slack), and GAMMA this work uses code from GitHub repository secml_malware (https://github.com/pralab/secml_malware)](https://github.com/pralab/secml_malware)).
 To extract features from Windows PE malware, this work uses code from GitHub ember (https://github.com/elastic/ember/tree/master)https://github.com/elastic/ember/tree/master/).
