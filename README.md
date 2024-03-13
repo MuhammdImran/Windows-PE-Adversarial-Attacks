@@ -3,7 +3,7 @@
 # Evaluating Realistic Adversarial Attacks against Machine Learning Models for Windows PE Malware Detection  
 ### Installation  
 The dataset consists of harmful malware binary files, I suggest installing a virtual machine to replicate the experiments. To replicate the experiments, install the following packages.  
-* secml_malware(https://github.com/pralab/secml_malware)](https://github.com/pralab/secml_malware))
+
 * python 3.6.13
 * keras 2.6
 * tensorflow 2.6.2
@@ -15,10 +15,11 @@ The dataset consists of harmful malware binary files, I suggest installing a vir
 * lightgbm 4.1.0
 * tqdm 4.64.1
 * jupyter notebook 6.4.3
+* secml_malware(https://github.com/pralab/secml_malware)](https://github.com/pralab/secml_malware))
 * ember 0.1.0 ([https://pypi.org/project/hyperopt](https://github.com/elastic/ember/tree/master)https://github.com/elastic/ember/tree/master/)
 * SHAP 0.41.4
 ### Description for this repository
-To replicate the experiments of the referred work, the models and datasets have been saved in Datasets and Models can be used. Parameters are saved in config.ini. Run the notebook in the given order:
+To replicate the experiments of the referred work, the models and datasets have been saved in (after uploading the dataset link will be here). Parameters are saved in config.ini. Run the notebook in the given order:
 1. Run predicted_malware notebook to find the malware binary files that are predicted as malware by a pre-trained MalConv model.
 2. Run adversarial_samples_generation notebook to generate Windows PE malware by attacking MalConv with the attack method: FullDOS, Extend_dos, Conetnt_shift, FGSM(padding+slack), and GAMMA. This step is optional as Windows PE malware files by each attacking method are included in the dataset. To skip this step, paste these files into the folders by following the configuration in config.ini. 
 3. Run malconv_evasion_performnce notebook to achieve Table 1, Table 2, and Figure 1 results against the MalConv model.
