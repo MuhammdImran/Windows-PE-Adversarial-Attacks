@@ -26,9 +26,9 @@ To replicate the experiments of the referred work, the models and datasets have 
 4. Run lightGBM_eval notebook to achieve results reported in Table 1, Table 2, and Figure 1 on the performance of the lightGBM model.
 5. Run corresponding_malware notebook to find the corresponding PE malware of the realistic adversarial PE malware.
 6. Run gamma_subset notebook to find which adversarial PE files produced by GAMMA evade the lighGBM model.
-7. Run feature_extraction notebook to extract features from all PE adversarial malware and corresponding malware.
-8. Run euclidean_distance notebook to achieve Figure 2 results in section 5.3
-9. Run gamma_subset_euclidean_distance notebook to achieve Figure 3 results in section 5.3
+7. Run feature_extraction notebook to extract LIEF features from all PE adversarial malware and corresponding original files.
+8. Run euclidean_distance notebook to achieve the results shown in Figure 2 of section 5.3.
+9. Run gamma_subset_euclidean_distance notebook to achieve the results shown in Figure 3 of section 5.3.
 10. Run XAI_beeswarm notebook to achieve Figure 4-8 results in section 5.4
 11. Run Adversarial_training notebook to achieve Table 3 results in section 5.5
 12. Run XAI_CV_beeswarm notebook to achieve Figure 9 results in section 5.5
