@@ -23,7 +23,7 @@ To replicate the experiments of the referred work, the models and datasets have 
 1. Run predicted_malware notebook to find the malware binary files that are predicted as malware by a pre-trained MalConv model.
 2. Run adversarial_samples_generation notebook to generate Windows PE malware by attacking MalConv with the attack methods: FullDOS, Extend_dos, Conetnt_shift, FGSM(padding+slack), and GAMMA. This step is optional as the Windows PE malware files produced by each attacking method are already included in the datasets. To skip this step, place these files into the folders by following the configuration in config.ini. 
 3. Run malconv_evasion_performnce notebook to achieve results reported in Table 1, Table 2, and Figure 1 of the MalConv model.
-4. Run lightGBM_eval notebook to achieve Table 1, Table 2, and Figure 1 results against the lightgbm model.
+4. Run lightGBM_eval notebook to achieve results reported in Table 1, Table 2, and Figure 1 of the lightgbm model.
 5. Run corresponding_malware notebook to find the corresponding PE malware of the realistic adversarial PE malware.
 6. Run gamma_subset notebook to find the gamma adversarial PE malware and its corresponding, that achieved transferability against lightgbm.
 7. Run feature_extraction notebook to extract features from all PE adversarial malware and corresponding malware.
