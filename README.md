@@ -40,6 +40,7 @@ To extract features from Windows PE malware and their adversarial counterparts a
 The malware Windows PE files are collected from VirusShare (https://virusshare.com/about).
 
 The goodware Windows PE files are collected from (https://practicalsecurityanalytics.com/pe-malware-machine-learning-dataset/).
+**Note: The extension has been removed from all the files in the samples directory to prevent accidental execution.**
 
 
 
