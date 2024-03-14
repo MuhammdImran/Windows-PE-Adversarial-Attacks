@@ -29,9 +29,9 @@ To replicate the experiments of the referred work, the models and datasets have 
 7. Run feature_extraction notebook to extract LIEF features from all PE adversarial malware and corresponding original files.
 8. Run euclidean_distance notebook to achieve the results shown in Figure 2 of section 5.3.
 9. Run gamma_subset_euclidean_distance notebook to achieve the results shown in Figure 3 of section 5.3.
-10. Run XAI_beeswarm notebook to achieve Figure 4-8 results in section 5.4
-11. Run Adversarial_training notebook to achieve Table 3 results in section 5.5
-12. Run XAI_CV_beeswarm notebook to achieve Figure 9 results in section 5.5
+10. Run XAI_beeswarm notebook to achieve Figure 4-8 results in section 5.4.
+11. Run Adversarial_training notebook to achieve Table 3 results in section 5.5.
+12. Run XAI_CV_beeswarm notebook to achieve Figure 9 results in section 5.5.
 ## Credits and Acknowledgement
 To generate realistic adversarial Windows PE malware by attacking MalConv with the attack methods: FullDOS, Extend_DOS, Content_Shift, FGSM(padding+slack), and GAMMA this work uses code from GitHub repository secml_malware (https://github.com/pralab/secml_malware)](https://github.com/pralab/secml_malware)).
 To extract features from Windows PE malware, this work uses code from GitHub ember (https://github.com/elastic/ember/tree/master)https://github.com/elastic/ember/tree/master/).
