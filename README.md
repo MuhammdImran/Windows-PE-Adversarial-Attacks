@@ -37,7 +37,8 @@ To generate the realistic adversarial Windows PE malware by attacking MalConv wi
 
 To extract features from Windows PE malware and their adversarial counterparts and to trainj lightGBM model this work uses code from GitHub ember (https://github.com/elastic/ember/tree/master)https://github.com/elastic/ember/tree/master/).
 
-The malware Windows PE files are collected from Virusshare (https://virusshare.com/about)
+The malware Windows PE files are collected from Virusshare (https://virusshare.com/about).
+
 The goodware Windows PE files are collected from (https://practicalsecurityanalytics.com/pe-malware-machine-learning-dataset/)
 
 
