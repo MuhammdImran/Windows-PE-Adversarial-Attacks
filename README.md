@@ -37,11 +37,11 @@ To generate the realistic adversarial Windows PE malware by attacking MalConv wi
 
 To extract features from Windows PE malware and their adversarial counterparts and to trainj lightGBM model this work uses code from GitHub ember (https://github.com/elastic/ember/tree/master)https://github.com/elastic/ember/tree/master/).
 
-The malware Windows PE files are collected from VirusShare (https://virusshare.com/about).
-
-The malware_categories_percentage.doc File contains information about malware categories and the number of files in each category. Figure Windows_PE_malware_types_percentage.png is a Pie chart showing the percentage of each malware category.  
+The malware Windows PE files are collected from VirusShare (https://virusshare.com/about).  
 
 The goodware Windows PE files are collected from (https://practicalsecurityanalytics.com/pe-malware-machine-learning-dataset/).
+
+The malware_categories_percentage.doc File contains information about malware categories and the number of files in each category. Figure Windows_PE_malware_types_percentage.png is a Pie chart showing the percentage of each malware category.
 
 
 **Note: The extension has been removed from all the files in the samples directory to prevent accidental execution.**
