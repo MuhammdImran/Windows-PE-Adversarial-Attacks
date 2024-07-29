@@ -39,7 +39,10 @@ To extract features from Windows PE malware and their adversarial counterparts a
 
 The malware Windows PE files are collected from VirusShare (https://virusshare.com/about).
 
+The malware_categories_percentage.doc File contains information about malware categories and the number of files in each category. Figure Windows_PE_malware_types_percentage.png is a Pie chart showing the percentage of each malware category.  
+
 The goodware Windows PE files are collected from (https://practicalsecurityanalytics.com/pe-malware-machine-learning-dataset/).
+
 
 **Note: The extension has been removed from all the files in the samples directory to prevent accidental execution.**
 
