@@ -1,6 +1,6 @@
 # Windows-PE-Adversarial-Attacks
 ### The repository contains code referred to the work:  
-# Evaluating Realistic Adversarial Attacks against Machine Learning Models for Windows PE Malware Detection [under review] 
+# Muhammad Imran, Annalisa Appice, Donato Malerba: Evaluating Realistic Adversarial Attacks against Machine Learning Models for Windows PE Malware Detection. Future Internet 16(5): 168 (2024) 
 ### Installation  
 The dataset consists of harmful malware binary files, I suggest installing a virtual machine to replicate the experiments. To replicate the experiments, install the following packages.  
 
@@ -19,9 +19,9 @@ The dataset consists of harmful malware binary files, I suggest installing a vir
 * ember 0.1.0 (https://github.com/elastic/ember/tree/master)https://github.com/elastic/ember/tree/master/)
 * SHAP 0.41.4
 ### Description for this repository
-To replicate the experiments of the referred work, the models and datasets have been saved in [Dataset and model](https://unibari-my.sharepoint.com/:f:/g/personal/muhammad_imran_uniba_it/Ev6oqwqm6sBEmXrl8sHx--0BbZNdJyQwYYoAn2yHcXWnYg?e=3rtZkk).
-For more detailed information about each malware sample, including the specific malware family to which each file belongs, please visit [Malware Family](https://unibari-my.sharepoint.com/:x:/g/personal/muhammad_imran_uniba_it/EVDHYTtz9rJEjFWSfbDlxI8BAPJkopNUffevM71T8qNOfQ?e=wVixbC)
-To provide a visual understanding of the distribution of malware families in the dataset, a pie chart is available [Pie chart](https://unibari-my.sharepoint.com/:i:/g/personal/muhammad_imran_uniba_it/Ee3BHpjWRpJIvgQuGqz__coBZ4m6W-L0KR8LSkVJUMeszA?e=OrN1uw).
+To replicate the experiments of the referred work, the models and datasets have been saved in [Dataset and model](https://unibari-my.sharepoint.com/:f:/g/personal/muhammad_imran_uniba_it/Ev6oqwqm6sBEmXrl8sHx--0BbZNdJyQwYYoAn2yHcXWnYg?e=tAyFN3).
+For more detailed information about each malware sample, including the specific malware family to which each file belongs, please visit [Malware Family](https://unibari-my.sharepoint.com/:x:/g/personal/muhammad_imran_uniba_it/EVDHYTtz9rJEjFWSfbDlxI8BAPJkopNUffevM71T8qNOfQ?e=5dD4g9)
+To provide a visual understanding of the distribution of malware families in the dataset, a pie chart is available [Pie chart](https://unibari-my.sharepoint.com/:i:/g/personal/muhammad_imran_uniba_it/Ee3BHpjWRpJIvgQuGqz__coBZ4m6W-L0KR8LSkVJUMeszA?e=HznTs4).
 **Please manage data carefully, by using a virtual machine, as they are  Windows PE malware**. Parameters are saved in config.ini. First, download the datasets and place them in the relevant folders. Subsequently, run the notebooks in the following order:
 1. Run predicted_malware notebook to find the malware binary files that are predicted as malware by a pre-trained MalConv model.
 2. Run adversarial_samples_generation notebook to generate Windows PE malware by attacking MalConv with the attack methods: FullDOS, Extend_dos, Conetnt_shift, FGSM(padding+slack), and GAMMA. This step is optional as the Windows PE malware files produced by each attacking method are already included in the datasets. To skip this step, place these files into the folders by following the configuration in config.ini. 
