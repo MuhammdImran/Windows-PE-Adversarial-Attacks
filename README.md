@@ -44,9 +44,9 @@ The malware Windows PE files are collected from VirusShare (https://virusshare.c
 
 The goodware Windows PE files are collected from (https://practicalsecurityanalytics.com/pe-malware-machine-learning-dataset/).
 
-The goodware_files.doc File contains the names of the goodware Windows PE files downloaded from the above link.  
+The goodware_files.csv File contains the names of the goodware Windows PE files downloaded from the above link.  
 
-The malware_categories_percentage.doc File contains information about malware categories and the number of files in each category. Figure Windows_PE_malware_types_percentage.png is a Pie chart showing the percentage of each malware category.
+The malware_categories_percentage.csv File contains information about malware categories and the number of files in each category. Figure Windows_PE_malware_types_percentage.png is a Pie chart showing the percentage of each malware category.
 
 
 
