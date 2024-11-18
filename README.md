@@ -20,6 +20,7 @@ The dataset consists of harmful malware binary files, I suggest installing a vir
 * SHAP 0.41.4
 ### Description for this repository
 The datasets are available upon request to replicate the experiments of the referred work. Feel free to contact me by email (m.imransial42@gmail.com, muhammad.imran@uniba.it).
+
 **Please manage data carefully, by using a virtual machine, as they are  Windows PE malware**. Parameters are saved in config.ini. First, download the datasets and place them in the relevant folders. Subsequently, run the notebooks in the following order:
 1. Run predicted_malware notebook to find the malware binary files that are predicted as malware by a pre-trained MalConv model.
 2. Run adversarial_samples_generation notebook to generate Windows PE malware by attacking MalConv with the attack methods: FullDOS, Extend_dos, Conetnt_shift, FGSM(padding+slack), and GAMMA. This step is optional as the Windows PE malware files produced by each attacking method are already included in the datasets. To skip this step, place these files into the folders by following the configuration in config.ini. 
